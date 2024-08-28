@@ -4,7 +4,7 @@ local window = DrRayLibrary:Load("Test Hub", "By: dearygt")
 
 local tab = DrRayLibrary.newTab("Blox Fruit", "ImageIdHere")
 
-tab.newButton("Speed Hub","Menú | Hub", function()
+tab.newButton("Speed Hub", "Menú | Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()  
 end)
 
